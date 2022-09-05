@@ -44,7 +44,7 @@
     "server": "nodemon cross-env NODE_ENV=production node server/src/index.js",
     "test-server": "cross-env NODE_ENV=test jest --verbose --runInBand server/"
   },
-  "proxy":"http://localhost:3000/",
+ 
   "eslintConfig": {
     "extends": [
       "react-app",
